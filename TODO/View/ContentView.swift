@@ -16,7 +16,6 @@ struct ContentView: View {
     NavigationView {
       List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
         Text("Hello, world!")
-          .padding()
       } //: LIST
       .navigationBarTitle("Todo", displayMode: .inline)
       .navigationBarItems(

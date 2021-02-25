@@ -60,9 +60,8 @@
 		4EB99F1D25E858B500980307 /* TODO */ = {
 			isa = PBXGroup;
 			children = (
+				4EB99F3B25E8665600980307 /* App */,
 				4EB99F3625E8597900980307 /* View */,
-				4EB99F1E25E858B500980307 /* AppDelegate.swift */,
-				4EB99F2025E858B500980307 /* SceneDelegate.swift */,
 				4EB99F2725E858B600980307 /* Assets.xcassets */,
 				4EB99F2C25E858B600980307 /* LaunchScreen.storyboard */,
 				4EB99F2F25E858B600980307 /* Info.plist */,
@@ -87,6 +86,15 @@
 				4EB99F3825E8599B00980307 /* AddTodoView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4EB99F3B25E8665600980307 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4EB99F1E25E858B500980307 /* AppDelegate.swift */,
+				4EB99F2025E858B500980307 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
