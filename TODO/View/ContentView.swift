@@ -43,6 +43,7 @@ struct ContentView: View {
               self.showingSettingsView.toggle()
             }) {
               Image(systemName: "paintbrush")
+                .imageScale(.large)
             } //: BUTTON
             .sheet(isPresented: $showingSettingsView) {
               SettingsView().environment(\.managedObjectContext, self.managedObjectContext)

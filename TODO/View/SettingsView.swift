@@ -18,6 +18,16 @@ struct SettingsView: View {
       VStack(alignment: .center, spacing: 0) {
         Form {
           
+          // SECTION 3
+          Section(header: Text("Follow us on social media")) {
+            FormRowLinkView(icon: "globe", color: .pink, text: "Website", link: "https://joshuabasche.com")
+            
+            FormRowLinkView(icon: "link", color: .blue, text: "Twitter", link: "https://twitter.com")
+            
+            FormRowLinkView(icon: "play.rectangle", color: .green, text: "Courses", link: "https://twitter.com")
+          } //: SECTION 3
+          .padding(.vertical, 3)
+          
           // SECTION 4
           Section(header: Text("About the application")) {
             ForRowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E27A26925F7F9C800AAFE24 /* ForRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27A26825F7F9C800AAFE24 /* ForRowStaticView.swift */; };
+		4E27A26C25F7FE0400AAFE24 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27A26B25F7FE0400AAFE24 /* FormRowLinkView.swift */; };
 		4E9BCEF625F0042300E3EC6B /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BCEF525F0042300E3EC6B /* EmptyListView.swift */; };
 		4E9BCEFA25F2A11800E3EC6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BCEF925F2A11800E3EC6B /* SettingsView.swift */; };
 		4EB99F1F25E858B500980307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB99F1E25E858B500980307 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		4E27A26825F7F9C800AAFE24 /* ForRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForRowStaticView.swift; sourceTree = "<group>"; };
+		4E27A26B25F7FE0400AAFE24 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		4E9BCEF525F0042300E3EC6B /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 		4E9BCEF925F2A11800E3EC6B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4EB99F1B25E858B500980307 /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 				4EB99F3825E8599B00980307 /* AddTodoView.swift */,
 				4E9BCEF925F2A11800E3EC6B /* SettingsView.swift */,
 				4E27A26825F7F9C800AAFE24 /* ForRowStaticView.swift */,
+				4E27A26B25F7FE0400AAFE24 /* FormRowLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				4E9BCEFA25F2A11800E3EC6B /* SettingsView.swift in Sources */,
 				4EB99F1F25E858B500980307 /* AppDelegate.swift in Sources */,
+				4E27A26C25F7FE0400AAFE24 /* FormRowLinkView.swift in Sources */,
 				4EB99F2125E858B500980307 /* SceneDelegate.swift in Sources */,
 				4E27A26925F7F9C800AAFE24 /* ForRowStaticView.swift in Sources */,
 				4E9BCEF625F0042300E3EC6B /* EmptyListView.swift in Sources */,
