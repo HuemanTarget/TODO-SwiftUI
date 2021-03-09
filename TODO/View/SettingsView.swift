@@ -15,23 +15,38 @@ struct SettingsView: View {
   // MARK: - BODY
   var body: some View {
     NavigationView {
-      VStack {
-        Group {
-          HStack {
-            Image(systemName: "paintbrush")
+      VStack(alignment: .center, spacing: 0) {
+        Form {
+          
+          // SECTION 4
+          Section(header: Text("About the application")) {
+            ForRowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")
             
-            Spacer()
+            ForRowStaticView(icon: "checkmark.seal", firstText: "Compatability", secondText: "iPhone, iPad")
             
-            Image(systemName: "paintbrush")
-          }
-          .padding(.horizontal, 20)
-        }
-        .padding(.top, 30)
+            ForRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "Joshua Basche")
+            
+            ForRowStaticView(icon: "paintbrush", firstText: "Designer", secondText: "Joshua Basche")
+            
+            ForRowStaticView(icon: "flag", firstText: "Version", secondText: "1.0.0")
+          } //: SECTION 4
+          .padding(.vertical, 3)
+          
+        } //: FORM
+        .listStyle(GroupedListStyle())
+        .environment(\.horizontalSizeClass, .regular)
         
-        Spacer()
+        // FOOTER
+        Text("Copyright ©2021 All Rights Reserved.\nBetter Apps ♡ Less Code")
+          .multilineTextAlignment(.center)
+          .font(.footnote)
+          .padding(.top, 6)
+          .padding(.bottom, 38)
+          .foregroundColor(Color.secondary)
         
       } //: VSTACK
       .navigationBarTitle("Settings", displayMode: .inline)
+      .background(Color("ColorBackground")).edgesIgnoringSafeArea(.all)
       .navigationBarItems(
         trailing:
           Button(action: {
